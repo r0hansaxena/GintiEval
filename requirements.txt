@@ -1,0 +1,5 @@
+indic-numtowords==1.1.0
+indic-num2words==1.3.2
+num2words==0.5.14
+# only needed to run local models on Apple silicon
+mlx-lm==0.32.2
