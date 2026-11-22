@@ -1,0 +1,26 @@
+{
+ "llama-3.2-3b": {
+  "outputs_reaching_budget": 191,
+  "wrong_outputs_that_are_cut_off_correct_prefixes": 0
+ },
+ "gemma-3-4b": {
+  "outputs_reaching_budget": 19,
+  "wrong_outputs_that_are_cut_off_correct_prefixes": 0
+ },
+ "qwen2.5-7b": {
+  "outputs_reaching_budget": 429,
+  "wrong_outputs_that_are_cut_off_correct_prefixes": 0
+ },
+ "llama-3.1-8b": {
+  "outputs_reaching_budget": 81,
+  "wrong_outputs_that_are_cut_off_correct_prefixes": 0
+ },
+ "aya-expanse-8b": {
+  "outputs_reaching_budget": 173,
+  "wrong_outputs_that_are_cut_off_correct_prefixes": 0
+ },
+ "gemma-3-12b": {
+  "outputs_reaching_budget": 24,
+  "wrong_outputs_that_are_cut_off_correct_prefixes": 0
+ }
+}
