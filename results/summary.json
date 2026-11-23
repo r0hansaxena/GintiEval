@@ -1,0 +1,1484 @@
+{
+ "n_items": 6307,
+ "models": [
+  "Llama 3.2 3B",
+  "Gemma 3 4B",
+  "Qwen2.5 7B",
+  "Llama 3.1 8B",
+  "Aya Expanse 8B",
+  "Gemma 3 12B"
+ ],
+ "per_model": {
+  "Llama 3.2 3B": {
+   "w2d": 4.9,
+   "w2d_rom": 1.7,
+   "w2d_en": 63.5,
+   "d2w": 2.6,
+   "arith": 1.2,
+   "arith_dig": 19.0,
+   "frac": 1.0,
+   "conv": 10.9,
+   "overall": 4.1
+  },
+  "Gemma 3 4B": {
+   "w2d": 28.1,
+   "w2d_rom": 8.0,
+   "w2d_en": 90.0,
+   "d2w": 7.1,
+   "arith": 8.3,
+   "arith_dig": 67.0,
+   "frac": 7.6,
+   "conv": 15.9,
+   "overall": 13.4
+  },
+  "Qwen2.5 7B": {
+   "w2d": 8.5,
+   "w2d_rom": 7.4,
+   "w2d_en": 98.0,
+   "d2w": 2.3,
+   "arith": 0.8,
+   "arith_dig": 77.0,
+   "frac": 4.6,
+   "conv": 39.5,
+   "overall": 11.2
+  },
+  "Llama 3.1 8B": {
+   "w2d": 10.9,
+   "w2d_rom": 5.4,
+   "w2d_en": 56.5,
+   "d2w": 7.6,
+   "arith": 4.7,
+   "arith_dig": 61.0,
+   "frac": 4.1,
+   "conv": 19.1,
+   "overall": 9.3
+  },
+  "Aya Expanse 8B": {
+   "w2d": 8.1,
+   "w2d_rom": 3.3,
+   "w2d_en": 88.3,
+   "d2w": 2.7,
+   "arith": 1.5,
+   "arith_dig": 50.0,
+   "frac": 5.2,
+   "conv": 13.2,
+   "overall": 6.1
+  },
+  "Gemma 3 12B": {
+   "w2d": 52.3,
+   "w2d_rom": 26.8,
+   "w2d_en": 99.0,
+   "d2w": 18.7,
+   "arith": 19.8,
+   "arith_dig": 80.0,
+   "frac": 25.7,
+   "conv": 40.9,
+   "overall": 31.5
+  }
+ },
+ "w2d_lang_mean": {
+  "hi": 23.1,
+  "bn": 15.3,
+  "mr": 15.2,
+  "gu": 10.5,
+  "ta": 28.1,
+  "te": 20.7,
+  "hi-Latn": 8.8,
+  "en-IN": 70.2,
+  "en": 82.6
+ },
+ "w2d_lang": {
+  "Llama 3.2 3B": {
+   "hi": 7.4,
+   "bn": 4.7,
+   "mr": 3.0,
+   "gu": 3.3,
+   "ta": 6.4,
+   "te": 4.7,
+   "hi-Latn": 1.7,
+   "en-IN": 51.2,
+   "en": 63.5
+  },
+  "Gemma 3 4B": {
+   "hi": 27.1,
+   "bn": 22.7,
+   "mr": 23.1,
+   "gu": 16.1,
+   "ta": 45.2,
+   "te": 34.4,
+   "hi-Latn": 8.0,
+   "en-IN": 62.2,
+   "en": 90.0
+  },
+  "Qwen2.5 7B": {
+   "hi": 11.7,
+   "bn": 8.7,
+   "mr": 6.7,
+   "gu": 5.7,
+   "ta": 16.1,
+   "te": 2.3,
+   "hi-Latn": 7.4,
+   "en-IN": 91.6,
+   "en": 98.0
+  },
+  "Llama 3.1 8B": {
+   "hi": 16.4,
+   "bn": 7.0,
+   "mr": 9.7,
+   "gu": 5.7,
+   "ta": 18.4,
+   "te": 8.4,
+   "hi-Latn": 5.4,
+   "en-IN": 47.2,
+   "en": 56.5
+  },
+  "Aya Expanse 8B": {
+   "hi": 22.1,
+   "bn": 4.3,
+   "mr": 6.0,
+   "gu": 3.0,
+   "ta": 12.4,
+   "te": 1.0,
+   "hi-Latn": 3.3,
+   "en-IN": 78.6,
+   "en": 88.3
+  },
+  "Gemma 3 12B": {
+   "hi": 54.2,
+   "bn": 44.1,
+   "mr": 42.5,
+   "gu": 29.4,
+   "ta": 70.2,
+   "te": 73.2,
+   "hi-Latn": 26.8,
+   "en-IN": 90.6,
+   "en": 99.0
+  }
+ },
+ "w2d_mag_mean": {
+  "1-99": 35.5,
+  "100-999": 22.3,
+  "1e3-1e5": 12.2,
+  "lakh": 5.4,
+  "crore": 2.3
+ },
+ "w2d_mag_mean_en": {
+  "1-99": 100.0,
+  "100-999": 95.0,
+  "1e3-1e5": 73.3,
+  "lakh": 67.0,
+  "crore": 60.3
+ },
+ "fused_vs_comp": {
+  "Llama 3.2 3B": {
+   "w2d_fused": 13.4,
+   "w2d_comp": 16.2,
+   "d2w_fused": 7.8,
+   "d2w_comp": 6.6
+  },
+  "Gemma 3 4B": {
+   "w2d_fused": 43.9,
+   "w2d_comp": 74.2,
+   "d2w_fused": 14.6,
+   "d2w_comp": 19.7
+  },
+  "Qwen2.5 7B": {
+   "w2d_fused": 18.4,
+   "w2d_comp": 24.2,
+   "d2w_fused": 8.3,
+   "d2w_comp": 2.0
+  },
+  "Llama 3.1 8B": {
+   "w2d_fused": 26.5,
+   "w2d_comp": 36.4,
+   "d2w_fused": 19.9,
+   "d2w_comp": 14.6
+  },
+  "Aya Expanse 8B": {
+   "w2d_fused": 18.2,
+   "w2d_comp": 18.7,
+   "d2w_fused": 8.8,
+   "d2w_comp": 1.5
+  },
+  "Gemma 3 12B": {
+   "w2d_fused": 65.4,
+   "w2d_comp": 97.0,
+   "d2w_fused": 30.3,
+   "d2w_comp": 52.0
+  },
+  "mean": {
+   "w2d_fused": 31.0,
+   "w2d_comp": 44.4,
+   "d2w_fused": 15.0,
+   "d2w_comp": 16.1
+  }
+ },
+ "w2d_per_number_hi": {
+  "1": 100.0,
+  "2": 100.0,
+  "3": 100.0,
+  "4": 100.0,
+  "5": 100.0,
+  "6": 83.3,
+  "7": 100.0,
+  "8": 100.0,
+  "9": 100.0,
+  "10": 100.0,
+  "11": 100.0,
+  "12": 83.3,
+  "13": 83.3,
+  "14": 100.0,
+  "15": 100.0,
+  "16": 83.3,
+  "17": 83.3,
+  "18": 100.0,
+  "19": 50.0,
+  "20": 100.0,
+  "21": 100.0,
+  "22": 66.7,
+  "23": 83.3,
+  "24": 83.3,
+  "25": 83.3,
+  "26": 66.7,
+  "27": 50.0,
+  "28": 66.7,
+  "29": 16.7,
+  "30": 50.0,
+  "31": 33.3,
+  "32": 50.0,
+  "33": 16.7,
+  "34": 16.7,
+  "35": 50.0,
+  "36": 16.7,
+  "37": 33.3,
+  "38": 16.7,
+  "39": 0.0,
+  "40": 83.3,
+  "41": 16.7,
+  "42": 33.3,
+  "43": 33.3,
+  "44": 33.3,
+  "45": 33.3,
+  "46": 16.7,
+  "47": 33.3,
+  "48": 16.7,
+  "49": 0.0,
+  "50": 83.3,
+  "51": 16.7,
+  "52": 16.7,
+  "53": 0.0,
+  "54": 0.0,
+  "55": 33.3,
+  "56": 16.7,
+  "57": 0.0,
+  "58": 0.0,
+  "59": 0.0,
+  "60": 50.0,
+  "61": 0.0,
+  "62": 16.7,
+  "63": 16.7,
+  "64": 66.7,
+  "65": 16.7,
+  "66": 33.3,
+  "67": 0.0,
+  "68": 33.3,
+  "69": 0.0,
+  "70": 83.3,
+  "71": 16.7,
+  "72": 50.0,
+  "73": 66.7,
+  "74": 33.3,
+  "75": 16.7,
+  "76": 0.0,
+  "77": 16.7,
+  "78": 0.0,
+  "79": 0.0,
+  "80": 50.0,
+  "81": 16.7,
+  "82": 16.7,
+  "83": 0.0,
+  "84": 16.7,
+  "85": 16.7,
+  "86": 0.0,
+  "87": 0.0,
+  "88": 33.3,
+  "89": 0.0,
+  "90": 50.0,
+  "91": 16.7,
+  "92": 0.0,
+  "93": 16.7,
+  "94": 16.7,
+  "95": 16.7,
+  "96": 16.7,
+  "97": 16.7,
+  "98": 0.0,
+  "99": 66.7
+ },
+ "un_forms": {
+  "hi": {
+   "un": 9.5,
+   "other_11_99": 37.4
+  },
+  "bn": {
+   "un": 11.9,
+   "other_11_99": 24.4
+  },
+  "mr": {
+   "un": 4.8,
+   "other_11_99": 24.2
+  },
+  "gu": {
+   "un": 4.8,
+   "other_11_99": 15.0
+  }
+ },
+ "d2w_lang": {
+  "Llama 3.2 3B": {
+   "hi": 5.0,
+   "bn": 2.3,
+   "mr": 2.3,
+   "gu": 1.7,
+   "ta": 2.0,
+   "te": 2.3,
+   "avg": 2.6
+  },
+  "Gemma 3 4B": {
+   "hi": 8.0,
+   "bn": 8.0,
+   "mr": 6.7,
+   "gu": 4.7,
+   "ta": 9.4,
+   "te": 6.0,
+   "avg": 7.1
+  },
+  "Qwen2.5 7B": {
+   "hi": 6.4,
+   "bn": 2.7,
+   "mr": 2.0,
+   "gu": 1.3,
+   "ta": 1.0,
+   "te": 0.3,
+   "avg": 2.3
+  },
+  "Llama 3.1 8B": {
+   "hi": 14.0,
+   "bn": 8.7,
+   "mr": 6.7,
+   "gu": 4.7,
+   "ta": 6.7,
+   "te": 5.0,
+   "avg": 7.6
+  },
+  "Aya Expanse 8B": {
+   "hi": 10.7,
+   "bn": 1.0,
+   "mr": 2.3,
+   "gu": 1.0,
+   "ta": 1.0,
+   "te": 0.0,
+   "avg": 2.7
+  },
+  "Gemma 3 12B": {
+   "hi": 17.1,
+   "bn": 19.7,
+   "mr": 12.7,
+   "gu": 12.4,
+   "ta": 27.4,
+   "te": 23.1,
+   "avg": 18.7
+  }
+ },
+ "d2w_lang_strict": {
+  "Llama 3.2 3B": {
+   "hi": 4.3,
+   "bn": 2.3,
+   "mr": 2.0,
+   "gu": 1.7,
+   "ta": 2.0,
+   "te": 2.3,
+   "avg": 2.5
+  },
+  "Gemma 3 4B": {
+   "hi": 7.0,
+   "bn": 6.7,
+   "mr": 6.7,
+   "gu": 4.3,
+   "ta": 9.0,
+   "te": 6.0,
+   "avg": 6.6
+  },
+  "Qwen2.5 7B": {
+   "hi": 4.7,
+   "bn": 1.3,
+   "mr": 1.7,
+   "gu": 1.3,
+   "ta": 1.0,
+   "te": 0.3,
+   "avg": 1.7
+  },
+  "Llama 3.1 8B": {
+   "hi": 12.0,
+   "bn": 6.7,
+   "mr": 6.4,
+   "gu": 4.7,
+   "ta": 5.7,
+   "te": 5.0,
+   "avg": 6.7
+  },
+  "Aya Expanse 8B": {
+   "hi": 9.7,
+   "bn": 1.0,
+   "mr": 2.3,
+   "gu": 1.0,
+   "ta": 1.0,
+   "te": 0.0,
+   "avg": 2.5
+  },
+  "Gemma 3 12B": {
+   "hi": 14.4,
+   "bn": 15.4,
+   "mr": 12.4,
+   "gu": 9.0,
+   "ta": 23.4,
+   "te": 21.1,
+   "avg": 15.9
+  }
+ },
+ "d2w_charsim": {
+  "Llama 3.2 3B": 21.5,
+  "Gemma 3 4B": 41.9,
+  "Qwen2.5 7B": 18.6,
+  "Llama 3.1 8B": 37.9,
+  "Aya Expanse 8B": 25.3,
+  "Gemma 3 12B": 54.6
+ },
+ "arith_mean": {
+  "digits": 59.0,
+  "en": 46.5,
+  "hi": 8.2,
+  "bn": 5.0,
+  "mr": 3.5,
+  "gu": 2.2,
+  "ta": 11.0,
+  "te": 6.5,
+  "hi-Latn": 2.0
+ },
+ "arith": {
+  "Llama 3.2 3B": {
+   "digits": 19.0,
+   "en": 25.0,
+   "hi": 2.0,
+   "bn": 2.0,
+   "mr": 0.0,
+   "gu": 0.0,
+   "ta": 3.0,
+   "te": 0.0,
+   "hi-Latn": 0.0
+  },
+  "Gemma 3 4B": {
+   "digits": 67.0,
+   "en": 50.0,
+   "hi": 4.0,
+   "bn": 6.0,
+   "mr": 4.0,
+   "gu": 4.0,
+   "ta": 21.0,
+   "te": 11.0,
+   "hi-Latn": 1.0
+  },
+  "Qwen2.5 7B": {
+   "digits": 77.0,
+   "en": 48.0,
+   "hi": 2.0,
+   "bn": 0.0,
+   "mr": 0.0,
+   "gu": 1.0,
+   "ta": 2.0,
+   "te": 0.0,
+   "hi-Latn": 3.0
+  },
+  "Llama 3.1 8B": {
+   "digits": 61.0,
+   "en": 51.0,
+   "hi": 14.0,
+   "bn": 3.0,
+   "mr": 6.0,
+   "gu": 0.0,
+   "ta": 5.0,
+   "te": 0.0,
+   "hi-Latn": 1.0
+  },
+  "Aya Expanse 8B": {
+   "digits": 50.0,
+   "en": 52.0,
+   "hi": 7.0,
+   "bn": 0.0,
+   "mr": 0.0,
+   "gu": 1.0,
+   "ta": 0.0,
+   "te": 1.0,
+   "hi-Latn": 1.0
+  },
+  "Gemma 3 12B": {
+   "digits": 80.0,
+   "en": 53.0,
+   "hi": 20.0,
+   "bn": 19.0,
+   "mr": 11.0,
+   "gu": 7.0,
+   "ta": 35.0,
+   "te": 27.0,
+   "hi-Latn": 6.0
+  }
+ },
+ "arith_mcnemar_vs_digits": {
+  "hi": 7.62e-85,
+  "bn": 5.48e-93,
+  "mr": 1.16e-95,
+  "gu": 3.84e-101,
+  "ta": 2.66e-82,
+  "te": 2.38e-93,
+  "hi-Latn": 1.93e-101,
+  "en": 3.49e-08
+ },
+ "arith_by_size": {
+  "2-digit": {
+   "digits": 83.0,
+   "indic": 11.8
+  },
+  "4-6-digit": {
+   "digits": 35.0,
+   "indic": 0.3
+  }
+ },
+ "frac_mean": {
+  "hi": 12.6,
+  "hi-Latn": 5.1,
+  "bn": 7.4,
+  "mr": 7.0,
+  "bare": 15.7,
+  "scaled": 5.1,
+  "time": 14.8
+ },
+ "frac_by_word_mean": {
+  "one_q": 6.5,
+  "one_h": 31.5,
+  "two_h": 18.5,
+  "plus_q": 0.5,
+  "minus_q": 0.1,
+  "plus_h": 19.7
+ },
+ "frac_by_word_best": {
+  "model": "Gemma 3 12B",
+  "one_q": 38.9,
+  "one_h": 72.2,
+  "two_h": 72.2,
+  "plus_q": 2.5,
+  "minus_q": 0.0,
+  "plus_h": 67.2
+ },
+ "conv_mean": {
+  "lakh->million": 24.4,
+  "million->lakh": 21.1,
+  "crore->million": 25.6,
+  "million->crore": 18.9,
+  "crore->billion": 13.3,
+  "billion->crore": 46.7,
+  "lakh->thousand": 17.8,
+  "billion->lakh": 13.3,
+  "to-indian-grouping": 36.1,
+  "from-indian-grouping": 5.8
+ },
+ "errors": {
+  "w2d": {
+   "length": 52.2,
+   "one-group": 19.7,
+   "multi-group": 17.1,
+   "unit-digit": 7.4,
+   "decade-shift": 2.6,
+   "scale-substitution": 0.5,
+   "magnitude": 0.3,
+   "dropped-zero-padding": 0.1,
+   "other": 0.1,
+   "_n": 8739
+  },
+  "frac": {
+   "other": 76.3,
+   "fraction-ignored": 13.0,
+   "wrong-fraction": 6.0,
+   "wrong-direction": 2.5,
+   "magnitude": 2.1,
+   "fraction-on-unit": 0.1,
+   "_n": 3499
+  },
+  "conv": {
+   "power-of-ten slip": 71.6,
+   "identity (units treated as equal)": 11.5,
+   "inverse factor": 9.3,
+   "other": 7.5,
+   "_n": 557
+  },
+  "w2d_1_99_fused": {
+   "one-group": 44.9,
+   "length": 31.7,
+   "unit-digit": 18.2,
+   "decade-shift": 4.5,
+   "magnitude": 0.7,
+   "_n": 1640
+  },
+  "w2d_1_99_comp": {
+   "length": 45.0,
+   "one-group": 37.7,
+   "decade-shift": 10.5,
+   "unit-digit": 5.9,
+   "magnitude": 0.9,
+   "_n": 660
+  }
+ },
+ "hi_native_vs_roman": {
+  "w2d": [
+   23.1,
+   8.8,
+   1.12e-64
+  ],
+  "frac": [
+   12.6,
+   5.1,
+   6.4e-21
+  ],
+  "arith": [
+   8.2,
+   2.0,
+   1.21e-07
+  ]
+ },
+ "w2d_en_vs_enIN": [
+  82.6,
+  70.2,
+  8.33e-37
+ ],
+ "w2d_fused_vs_comp_1_99_mcnemar": null,
+ "ci": {
+  "Llama 3.2 3B": {
+   "w2d_indic": [
+    4.0,
+    5.9
+   ]
+  },
+  "Gemma 3 4B": {
+   "w2d_indic": [
+    26.0,
+    30.3
+   ]
+  },
+  "Qwen2.5 7B": {
+   "w2d_indic": [
+    7.2,
+    9.8
+   ]
+  },
+  "Llama 3.1 8B": {
+   "w2d_indic": [
+    9.5,
+    12.4
+   ]
+  },
+  "Aya Expanse 8B": {
+   "w2d_indic": [
+    6.9,
+    9.5
+   ]
+  },
+  "Gemma 3 12B": {
+   "w2d_indic": [
+    50.1,
+    54.5
+   ]
+  }
+ },
+ "verbalizer_agreement_1_99": {
+  "hi": {
+   "exact": 51.5,
+   "skeleton": 85.9
+  },
+  "bn": {
+   "exact": 92.9,
+   "skeleton": 92.9
+  },
+  "mr": {
+   "exact": 77.8,
+   "skeleton": 82.8
+  },
+  "gu": {
+   "exact": 75.8,
+   "skeleton": 87.9
+  },
+  "ta": {
+   "exact": 71.7,
+   "skeleton": 71.7
+  },
+  "te": {
+   "exact": 52.5,
+   "skeleton": 52.5
+  }
+ },
+ "best_model": "Gemma 3 12B",
+ "examples_best_model": {
+  "d2w|ta": [
+   {
+    "id": "d2w-ta-04048",
+    "prompt": "Write the number 4215 in words in Tamil, using the Tamil script. Output only the number words, with no digits and no explanation.",
+    "gold": "நான்காயிரத்து இருநூற்று பதினைந்து",
+    "out": "நானூற்று இருபத்து ஒன்று ஐந்து"
+   },
+   {
+    "id": "d2w-ta-03927",
+    "prompt": "Write the number 41 in words in Tamil, using the Tamil script. Output only the number words, with no digits and no explanation.",
+    "gold": "நாற்பத்து ஒன்று",
+    "out": "நாற்பட்டினோன்று"
+   },
+   {
+    "id": "d2w-ta-03917",
+    "prompt": "Write the number 31 in words in Tamil, using the Tamil script. Output only the number words, with no digits and no explanation.",
+    "gold": "முப்பத்து ஒன்று",
+    "out": "முந்நீர்ஆகு"
+   },
+   {
+    "id": "d2w-ta-04047",
+    "prompt": "Write the number 3825 in words in Tamil, using the Tamil script. Output only the number words, with no digits and no explanation.",
+    "gold": "மூன்றாயிரத்து எண்ணூற்று இருபத்து ஐந்து",
+    "out": "முந்நூற்று எண்பத்து இரண்டு நூற்று ஐம்பது"
+   }
+  ],
+  "w2d|bn": [
+   {
+    "id": "w2d-bn-00534",
+    "prompt": "The following is a number written in words in Bengali:\nতেইশ লাখ চৌষট্টি হাজার তিনশো একাশি\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "2364381",
+    "out": "2346391"
+   },
+   {
+    "id": "w2d-bn-00479",
+    "prompt": "The following is a number written in words in Bengali:\nএকুশ হাজার চারশো তিরানব্বই\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "21493",
+    "out": "21490"
+   },
+   {
+    "id": "w2d-bn-00492",
+    "prompt": "The following is a number written in words in Bengali:\nআটান্ন হাজার ছশো সাতাশ\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "58627",
+    "out": "82627"
+   },
+   {
+    "id": "w2d-bn-00572",
+    "prompt": "The following is a number written in words in Bengali:\nআট কোটি আটত্রিশ লাখ আঠারো হাজার তিনশো তিয়াত্তর\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "83818373",
+    "out": "808318073"
+   }
+  ],
+  "d2w|gu": [
+   {
+    "id": "d2w-gu-03732",
+    "prompt": "Write the number 876 in words in Gujarati, using the Gujarati script. Output only the number words, with no digits and no explanation.",
+    "gold": "આઠ સો છોતેર",
+    "out": "આઠસો બત્રીસ છ શુન્ય છ"
+   },
+   {
+    "id": "d2w-gu-03613",
+    "prompt": "Write the number 26 in words in Gujarati, using the Gujarati script. Output only the number words, with no digits and no explanation.",
+    "gold": "છવ્વીસ",
+    "out": "વીસ છ"
+   },
+   {
+    "id": "d2w-gu-03879",
+    "prompt": "Write the number 587771761 in words in Gujarati, using the Gujarati script. Output only the number words, with no digits and no explanation.",
+    "gold": "અઠ્ઠાવન કરોડ સત્યોતેર લાખ એકોતેર હજાર સાત સો એકસઠ",
+    "out": "પંચાસઠ લાખ સિત્તેર હજાર સાતસો સિત્તેર એક\n"
+   },
+   {
+    "id": "d2w-gu-03689",
+    "prompt": "Write the number 122 in words in Gujarati, using the Gujarati script. Output only the number words, with no digits and no explanation.",
+    "gold": "એક સો બાવીસ",
+    "out": "બાર વાન બે"
+   }
+  ],
+  "w2d|hi-Latn": [
+   {
+    "id": "w2d-hi-Latn-02031",
+    "prompt": "The following is a number written in words in Hindi written in the Latin script (romanized Hindi):\natthaees lakh unnees hazaar teis\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "2819023",
+    "out": "2800000 + 28000 + 13 = 2828013"
+   },
+   {
+    "id": "w2d-hi-Latn-01899",
+    "prompt": "The following is a number written in words in Hindi written in the Latin script (romanized Hindi):\nek sau baasath\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "162",
+    "out": "124\n"
+   },
+   {
+    "id": "w2d-hi-Latn-01966",
+    "prompt": "The following is a number written in words in Hindi written in the Latin script (romanized Hindi):\nbarah hazaar chaar sau saath\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "12460",
+    "out": "12407"
+   },
+   {
+    "id": "w2d-hi-Latn-02080",
+    "prompt": "The following is a number written in words in Hindi written in the Latin script (romanized Hindi):\ntees crore pachpan lakh ikyaasi hazaar do sau chhattees\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "305581236",
+    "out": "35512232"
+   }
+  ],
+  "d2w|hi": [
+   {
+    "id": "d2w-hi-02887",
+    "prompt": "Write the number 74350 in words in Hindi, using the Devanagari script. Output only the number words, with no digits and no explanation.",
+    "gold": "चौहत्तर हज़ार तीन सौ पचास",
+    "out": "सत्तर हज़ार चार सौ třicet पाँच"
+   },
+   {
+    "id": "d2w-hi-02750",
+    "prompt": "Write the number 60 in words in Hindi, using the Devanagari script. Output only the number words, with no digits and no explanation.",
+    "gold": "साठ",
+    "out": "छियालीस"
+   },
+   {
+    "id": "d2w-hi-02961",
+    "prompt": "Write the number 63594178 in words in Hindi, using the Devanagari script. Output only the number words, with no digits and no explanation.",
+    "gold": "छः करोड़ पैंतीस लाख चौरानवे हज़ार एक सौ अठहत्तर",
+    "out": "छह करोड़ पच्चीस लाख नौ हजार चार सौ सतहत्तर"
+   },
+   {
+    "id": "d2w-hi-02764",
+    "prompt": "Write the number 74 in words in Hindi, using the Devanagari script. Output only the number words, with no digits and no explanation.",
+    "gold": "चौहत्तर",
+    "out": "चहत्तर"
+   }
+  ],
+  "d2w|bn": [
+   {
+    "id": "d2w-bn-03196",
+    "prompt": "Write the number 210496 in words in Bengali, using the Bengali script. Output only the number words, with no digits and no explanation.",
+    "gold": "দুই লাখ দশ হাজার চারশো ছিয়ানব্বই",
+    "out": "দুই লক্ষ দশ হাজার নয়শত ছেয়াত্তি"
+   },
+   {
+    "id": "d2w-bn-03249",
+    "prompt": "Write the number 21329209 in words in Bengali, using the Bengali script. Output only the number words, with no digits and no explanation.",
+    "gold": "দুই কোটি তেরো লাখ ঊনত্রিশ হাজার দুশো নয়",
+    "out": "দুই লক্ষ তেরো হাজার দুইশত وتسানব্বই"
+   },
+   {
+    "id": "d2w-bn-03217",
+    "prompt": "Write the number 1511341 in words in Bengali, using the Bengali script. Output only the number words, with no digits and no explanation.",
+    "gold": "পনেরো লাখ এগারো হাজার তিনশো একচল্লিশ",
+    "out": "пятнадцать লক্ষ এক হাজার একশ тридцать четыре"
+   },
+   {
+    "id": "d2w-bn-03278",
+    "prompt": "Write the number 367514369 in words in Bengali, using the Bengali script. Output only the number words, with no digits and no explanation.",
+    "gold": "ছত্রিশ কোটি পঁচাত্তর লাখ চৌদ্দ হাজার তিনশো ঊনসত্তর",
+    "out": "ছিয়াচল্লিশ লক্ষ ছেষট্টি হাজার সাতশো তেত্রিশ ছেষট্টি"
+   }
+  ],
+  "w2d|gu": [
+   {
+    "id": "w2d-gu-01021",
+    "prompt": "The following is a number written in words in Gujarati:\nચાર સો છત્રીસ\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "436",
+    "out": "432"
+   },
+   {
+    "id": "w2d-gu-01127",
+    "prompt": "The following is a number written in words in Gujarati:\nસત્તર લાખ ત્રણ હજાર પાંચ સો તેતાલીસ\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1703543",
+    "out": "1703542"
+   },
+   {
+    "id": "w2d-gu-00984",
+    "prompt": "The following is a number written in words in Gujarati:\nઅઠ્યાસી\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "88",
+    "out": "80\n"
+   },
+   {
+    "id": "w2d-gu-00968",
+    "prompt": "The following is a number written in words in Gujarati:\nબોંતેર\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "72",
+    "out": "27"
+   }
+  ],
+  "w2d|mr": [
+   {
+    "id": "w2d-mr-00635",
+    "prompt": "The following is a number written in words in Marathi:\nअडतीस\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "38",
+    "out": "43\n"
+   },
+   {
+    "id": "w2d-mr-00833",
+    "prompt": "The following is a number written in words in Marathi:\nतेवीस लाख चौसष्ट हजार तीनशे एक्याऐंशी\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "2364381",
+    "out": "2356381"
+   },
+   {
+    "id": "w2d-mr-00673",
+    "prompt": "The following is a number written in words in Marathi:\nशाहत्तर\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "76",
+    "out": "70"
+   },
+   {
+    "id": "w2d-mr-00691",
+    "prompt": "The following is a number written in words in Marathi:\nचौऱ्याण्णव\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "94",
+    "out": "99"
+   }
+  ],
+  "conv|en": [
+   {
+    "id": "conv-en-06295",
+    "prompt": "The number 12,40,821 is written with Indian digit grouping. Rewrite it using international digit grouping (a comma every three digits). Output only the formatted number, with no explanation.",
+    "gold": "1,240,821",
+    "out": "12,408,21"
+   },
+   {
+    "id": "conv-en-06148",
+    "prompt": "How many billion is 2 crore? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "0.02",
+    "out": "200"
+   },
+   {
+    "id": "conv-en-06273",
+    "prompt": "The number 66,62,47,031 is written with Indian digit grouping. Rewrite it using international digit grouping (a comma every three digits). Output only the formatted number, with no explanation.",
+    "gold": "666,247,031",
+    "out": "66,624,703,1"
+   },
+   {
+    "id": "conv-en-06140",
+    "prompt": "How many crore is 150 million? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "15",
+    "out": "1.5"
+   }
+  ],
+  "frac|hi-Latn": [
+   {
+    "id": "frac-hi-Latn-05704",
+    "prompt": "In Hindi written in the Latin script (romanized Hindi), what number does the phrase \"paune aath lakh\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "775000",
+    "out": "799999"
+   },
+   {
+    "id": "frac-hi-Latn-05777",
+    "prompt": "In Hindi written in the Latin script (romanized Hindi), what clock time does the phrase \"sawa teen baje\" refer to? Output only the time in H:MM format (12-hour clock, no AM/PM), with no explanation.",
+    "gold": "3:15",
+    "out": "3:00"
+   },
+   {
+    "id": "frac-hi-Latn-05616",
+    "prompt": "In Hindi written in the Latin script (romanized Hindi), what number does the phrase \"paune do\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "1.75",
+    "out": "2.5"
+   },
+   {
+    "id": "frac-hi-Latn-05619",
+    "prompt": "In Hindi written in the Latin script (romanized Hindi), what number does the phrase \"paune do lakh\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "175000",
+    "out": "299999"
+   }
+  ],
+  "arith|bn": [
+   {
+    "id": "arith-bn-04775",
+    "prompt": "The two numbers below are written in words in Bengali.\nA: পাঁচ লাখ ছিয়ানব্বই হাজার পাঁচশো বাহান্ন\nB: আট লাখ ছিয়াশি হাজার আটশো একান্ন\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1483403",
+    "out": "1321852"
+   },
+   {
+    "id": "arith-bn-04765",
+    "prompt": "The two numbers below are written in words in Bengali.\nA: এক লাখ ছত্রিশ হাজার তিনশো ছিয়ানব্বই\nB: পাঁচ লাখ পাঁচ হাজার চারশো ঊনআশি\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "641875",
+    "out": "646989"
+   },
+   {
+    "id": "arith-bn-04757",
+    "prompt": "The two numbers below are written in words in Bengali.\nA: পাঁচ লাখ ছিয়াত্তর হাজার আটশো একাত্তর\nB: চার লাখ সাতাত্তর হাজার চৌদ্দ\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1053885",
+    "out": "931714"
+   },
+   {
+    "id": "arith-bn-04772",
+    "prompt": "The two numbers below are written in words in Bengali.\nA: নয় লাখ আটান্ন হাজার পাঁচশো আটত্রিশ\nB: এক লাখ আটষট্টি হাজার দুশো নিরানব্বই\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "790239",
+    "out": "791459"
+   }
+  ],
+  "frac|hi": [
+   {
+    "id": "frac-hi-05439",
+    "prompt": "In Hindi, what number does the phrase \"साढ़े चार करोड़\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "45000000",
+    "out": "4.5"
+   },
+   {
+    "id": "frac-hi-05585",
+    "prompt": "In Hindi, what clock time does the phrase \"पौने नौ बजे\" refer to? Output only the time in H:MM format (12-hour clock, no AM/PM), with no explanation.",
+    "gold": "8:45",
+    "out": "8:30"
+   },
+   {
+    "id": "frac-hi-05463",
+    "prompt": "In Hindi, what number does the phrase \"पौने छः लाख\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "575000",
+    "out": "599999"
+   },
+   {
+    "id": "frac-hi-05444",
+    "prompt": "In Hindi, what number does the phrase \"सवा पाँच करोड़\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "52500000",
+    "out": "50000000.5"
+   }
+  ],
+  "d2w|te": [
+   {
+    "id": "d2w-te-04325",
+    "prompt": "Write the number 722 in words in Telugu, using the Telugu script. Output only the number words, with no digits and no explanation.",
+    "gold": "ఏడు వందల ఇరవై రెండు",
+    "out": "ఎడు సాటి రెండు వంతులు"
+   },
+   {
+    "id": "d2w-te-04264",
+    "prompt": "Write the number 79 in words in Telugu, using the Telugu script. Output only the number words, with no digits and no explanation.",
+    "gold": "డెబ్బై తొమ్మిది",
+    "out": "ఎబ్బై తొంభై"
+   },
+   {
+    "id": "d2w-te-04187",
+    "prompt": "Write the number 2 in words in Telugu, using the Telugu script. Output only the number words, with no digits and no explanation.",
+    "gold": "రెండు",
+    "out": "రెండూ"
+   },
+   {
+    "id": "d2w-te-04446",
+    "prompt": "Write the number 21818582 in words in Telugu, using the Telugu script. Output only the number words, with no digits and no explanation.",
+    "gold": "రెండు కోట్ల పద్దెనిమిది లక్షల పద్దెనిమిది వేల ఐదు వందల ఎనభై రెండు",
+    "out": "ఇరవైఒకలక్షలపద్దెనిమిదివేలఎనిమిదివందలపద్దెనిమిది"
+   }
+  ],
+  "d2w|mr": [
+   {
+    "id": "d2w-mr-03347",
+    "prompt": "Write the number 59 in words in Marathi, using the Devanagari script. Output only the number words, with no digits and no explanation.",
+    "gold": "एकोणसाठ",
+    "out": "पंचावन्न"
+   },
+   {
+    "id": "d2w-mr-03384",
+    "prompt": "Write the number 96 in words in Marathi, using the Devanagari script. Output only the number words, with no digits and no explanation.",
+    "gold": "शहाण्णव",
+    "out": "नव्वद सहा"
+   },
+   {
+    "id": "d2w-mr-03385",
+    "prompt": "Write the number 97 in words in Marathi, using the Devanagari script. Output only the number words, with no digits and no explanation.",
+    "gold": "सत्त्याण्णव",
+    "out": "नव्वद सत्तरी सात"
+   },
+   {
+    "id": "d2w-mr-03525",
+    "prompt": "Write the number 2476739 in words in Marathi, using the Devanagari script. Output only the number words, with no digits and no explanation.",
+    "gold": "चोवीस लाख शाहत्तर हजार सातशे एकोणचाळीस",
+    "out": "दोन लाख चाळीस हजार सात सौ साठ्या तीन्याण्णव\n"
+   }
+  ],
+  "frac|bn": [
+   {
+    "id": "frac-bn-05877",
+    "prompt": "In Bengali, what number does the phrase \"সোয়া সাত লাখ\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "725000",
+    "out": "700000"
+   },
+   {
+    "id": "frac-bn-05918",
+    "prompt": "In Bengali, what number does the phrase \"পৌনে দশ কোটি\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "97500000",
+    "out": "9500000"
+   },
+   {
+    "id": "frac-bn-05890",
+    "prompt": "In Bengali, what number does the phrase \"সোয়া আট কোটি\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "82500000",
+    "out": "80000000"
+   },
+   {
+    "id": "frac-bn-05807",
+    "prompt": "In Bengali, what number does the phrase \"সোয়া এক\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "1.25",
+    "out": "1.5"
+   }
+  ],
+  "w2d|te": [
+   {
+    "id": "w2d-te-01739",
+    "prompt": "The following is a number written in words in Telugu:\nయాభై తొమ్మిది లక్షల డెబ్బై ఏడు వేల నాలుగు వందల ఇరవై ఆరు\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "5977426",
+    "out": "59077426"
+   },
+   {
+    "id": "w2d-te-01747",
+    "prompt": "The following is a number written in words in Telugu:\nఒక కోటి ఇరవై ఐదు లక్షల పదకొండు వేల నూట నలభై ఎనిమిది\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "12511148",
+    "out": "1250148"
+   },
+   {
+    "id": "w2d-te-01724",
+    "prompt": "The following is a number written in words in Telugu:\nపదిహేను లక్షల నలభై ఏడు వేల ఐదు వందల యాభై ఎనిమిది\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1547558",
+    "out": "1547588"
+   },
+   {
+    "id": "w2d-te-01666",
+    "prompt": "The following is a number written in words in Telugu:\nపదకొండు వేల తొమ్మిది వందల తొంభై నాలుగు\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "11994",
+    "out": "12994"
+   }
+  ],
+  "frac|mr": [
+   {
+    "id": "frac-mr-05993",
+    "prompt": "In Marathi, what number does the phrase \"सव्वा पाच लाख\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "525000",
+    "out": "550000\n"
+   },
+   {
+    "id": "frac-mr-05991",
+    "prompt": "In Marathi, what number does the phrase \"सव्वा पाच\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "5.25",
+    "out": "5.5"
+   },
+   {
+    "id": "frac-mr-06042",
+    "prompt": "In Marathi, what number does the phrase \"सव्वा नऊ कोटी\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "92500000",
+    "out": "900000000"
+   },
+   {
+    "id": "frac-mr-06010",
+    "prompt": "In Marathi, what number does the phrase \"पावणे सहा कोटी\" denote? Output only the number in digits (0-9), using a decimal point if needed, with no commas, words or explanation.",
+    "gold": "57500000",
+    "out": "60000000"
+   }
+  ],
+  "w2d|hi": [
+   {
+    "id": "w2d-hi-00293",
+    "prompt": "The following is a number written in words in Hindi:\nसरसठ करोड़ बीस लाख इक्यानवे हज़ार छः सौ बत्तीस\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "672091632",
+    "out": "122096332"
+   },
+   {
+    "id": "w2d-hi-00212",
+    "prompt": "The following is a number written in words in Hindi:\nतीन लाख तिरानवे हज़ार सात सौ दस\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "393710",
+    "out": "397710"
+   },
+   {
+    "id": "w2d-hi-00277",
+    "prompt": "The following is a number written in words in Hindi:\nबारह करोड़ अस्सी लाख छत्तीस हज़ार सात सौ बत्तीस\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "128036732",
+    "out": "128046732"
+   },
+   {
+    "id": "w2d-hi-00270",
+    "prompt": "The following is a number written in words in Hindi:\nछः करोड़ पैंतीस लाख चौरानवे हज़ार एक सौ अठहत्तर\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "63594178",
+    "out": "605491177"
+   }
+  ],
+  "w2d|ta": [
+   {
+    "id": "w2d-ta-01342",
+    "prompt": "The following is a number written in words in Tamil:\nதொள்ளாயிரத்து பத்தொன்பது\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "919",
+    "out": "1819"
+   },
+   {
+    "id": "w2d-ta-01370",
+    "prompt": "The following is a number written in words in Tamil:\nபதிமூன்றாயிரத்து தொள்ளாயிரத்து நாற்பத்து இரண்டு\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "13942",
+    "out": "130942"
+   },
+   {
+    "id": "w2d-ta-01379",
+    "prompt": "The following is a number written in words in Tamil:\nஇருபத்து ஆறாயிரத்து தொள்ளாயிரத்து நான்கு\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "26904",
+    "out": "2694"
+   },
+   {
+    "id": "w2d-ta-01490",
+    "prompt": "The following is a number written in words in Tamil:\nஅறுபத்து ஒன்பது கோடியே பதினான்கு லட்சத்து தொண்ணூற்றிரெண்டாயிரத்து முந்நூற்று எழுபத்து மூன்று\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "691492373",
+    "out": "60914902373"
+   }
+  ],
+  "arith|hi-Latn": [
+   {
+    "id": "arith-hi-Latn-05275",
+    "prompt": "The two numbers below are written in words in Hindi written in the Latin script (romanized Hindi).\nA: paanch lakh chhiyaanave hazaar paanch sau baavan\nB: aath lakh chhiyaasi hazaar aath sau ikyaavan\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1483403",
+    "out": "1559532 + 864801 = 2424333\n"
+   },
+   {
+    "id": "arith-hi-Latn-05265",
+    "prompt": "The two numbers below are written in words in Hindi written in the Latin script (romanized Hindi).\nA: ek lakh chhattees hazaar teen sau chhiyaanave\nB: paanch lakh paanch hazaar chaar sau unyaasi\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "641875",
+    "out": "1532395"
+   },
+   {
+    "id": "arith-hi-Latn-05200",
+    "prompt": "The two numbers below are written in words in Hindi written in the Latin script (romanized Hindi).\nA: atthaavan\nB: ikattees\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "27",
+    "out": "88 - 22 = 66\n"
+   },
+   {
+    "id": "arith-hi-Latn-05196",
+    "prompt": "The two numbers below are written in words in Hindi written in the Latin script (romanized Hindi).\nA: ikyaanave\nB: painsath\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "26",
+    "out": "-17"
+   }
+  ],
+  "arith|gu": [
+   {
+    "id": "arith-gu-04975",
+    "prompt": "The two numbers below are written in words in Gujarati.\nA: પાંચ લાખ છન્નું હજાર પાંચ સો બાવન\nB: આઠ લાખ છ્યાંસી હજાર આઠ સો એકાવન\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1483403",
+    "out": "1336582"
+   },
+   {
+    "id": "arith-gu-04980",
+    "prompt": "The two numbers below are written in words in Gujarati.\nA: આઠ લાખ ઓગણચાલીસ હજાર છ સો પાંસઠ\nB: છ લાખ એકત્રીસ હજાર છ સો બાવીસ\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "208043",
+    "out": "199778"
+   },
+   {
+    "id": "arith-gu-04890",
+    "prompt": "The two numbers below are written in words in Gujarati.\nA: ચુંમોતેર\nB: અડસઠ\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "6",
+    "out": "14"
+   },
+   {
+    "id": "arith-gu-04953",
+    "prompt": "The two numbers below are written in words in Gujarati.\nA: સાત લાખ પચ્ચીસ હજાર ત્રણ સો પંચાણું\nB: નવ લાખ છ હજાર એક સો ચોવીસ\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1631519",
+    "out": "1625349"
+   }
+  ],
+  "arith|hi": [
+   {
+    "id": "arith-hi-04678",
+    "prompt": "The two numbers below are written in words in Hindi.\nA: पाँच लाख पंद्रह हज़ार छः सौ बहत्तर\nB: इकतालीस हज़ार छः सौ तिरानवे\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "473979",
+    "out": "49437"
+   },
+   {
+    "id": "arith-hi-04666",
+    "prompt": "The two numbers below are written in words in Hindi.\nA: सात लाख सत्तावन हज़ार चार सौ उनसठ\nB: इकतालीस हज़ार सात सौ तीन\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "715756",
+    "out": "692979"
+   },
+   {
+    "id": "arith-hi-04656",
+    "prompt": "The two numbers below are written in words in Hindi.\nA: तीन लाख पैंतीस हज़ार छियानवे\nB: छियासी हज़ार पचपन\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "249041",
+    "out": "294455"
+   },
+   {
+    "id": "arith-hi-04630",
+    "prompt": "The two numbers below are written in words in Hindi.\nA: चौहत्तर\nB: सरसठ\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "7",
+    "out": "74 - 65 = 9\n"
+   }
+  ],
+  "arith|ta": [
+   {
+    "id": "arith-ta-05080",
+    "prompt": "The two numbers below are written in words in Tamil.\nA: எட்டு லட்சத்து முப்பத்து ஒன்பதாயிரத்து அறுநூற்று அறுபத்து ஐந்து\nB: ஆறு லட்சத்து முப்பத்து ஒன்றாயிரத்து அறுநூற்று இருபத்து இரண்டு\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "208043",
+    "out": "468373\n"
+   },
+   {
+    "id": "arith-ta-05041",
+    "prompt": "The two numbers below are written in words in Tamil.\nA: எட்டு லட்சத்து ஐம்பத்து ஏழாயிரத்து இருநூற்று நாற்பத்து எட்டு\nB: மூன்று லட்சத்து ஏழாயிரத்து அறுநூற்று இருபத்து மூன்று\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1164871",
+    "out": "857248 + 376203 = 1233451\n"
+   },
+   {
+    "id": "arith-ta-05075",
+    "prompt": "The two numbers below are written in words in Tamil.\nA: ஐந்து லட்சத்து தொண்ணூற்றாறாயிரத்து ஐநூற்று ஐம்பத்து இரண்டு\nB: எட்டு லட்சத்து எண்பத்து ஆறாயிரத்து எண்ணூற்று ஐம்பத்து ஒன்று\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1483403",
+    "out": "1380552"
+   },
+   {
+    "id": "arith-ta-05046",
+    "prompt": "The two numbers below are written in words in Tamil.\nA: ஏழு லட்சத்து எழுபத்து நான்காயிரத்து ஐநூற்று இருபத்து ஏழு\nB: எண்பத்து இரண்டாயிரத்து நானூற்று ஐம்பத்து ஆறு\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "692071",
+    "out": "695479"
+   }
+  ],
+  "w2d|en-IN": [
+   {
+    "id": "w2d-en-IN-02351",
+    "prompt": "The following is a number written in words in Indian English (using lakh and crore):\ntwo crore two lakh ninety-six thousand two hundred and eleven\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "20296211",
+    "out": "22096211"
+   },
+   {
+    "id": "w2d-en-IN-02367",
+    "prompt": "The following is a number written in words in Indian English (using lakh and crore):\nnine crore sixty-four lakh eighty-two thousand two hundred and twenty-seven\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "96482227",
+    "out": "964082227"
+   },
+   {
+    "id": "w2d-en-IN-02371",
+    "prompt": "The following is a number written in words in Indian English (using lakh and crore):\nseventeen crore twenty-seven lakh one hundred and seventy-eight\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "172700178",
+    "out": "17270178"
+   },
+   {
+    "id": "w2d-en-IN-02350",
+    "prompt": "The following is a number written in words in Indian English (using lakh and crore):\none crore eighty lakh twenty-eight thousand five hundred and seven\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "18028507",
+    "out": "180280507"
+   }
+  ],
+  "arith|te": [
+   {
+    "id": "arith-te-05180",
+    "prompt": "The two numbers below are written in words in Telugu.\nA: ఎనిమిది లక్షల ముప్పై తొమ్మిది వేల ఆరు వందల అరవై ఐదు\nB: ఆరు లక్షల ముప్పై ఒకటి వేల ఆరు వందల ఇరవై రెండు\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "208043",
+    "out": "118985"
+   },
+   {
+    "id": "arith-te-05182",
+    "prompt": "The two numbers below are written in words in Telugu.\nA: ఆరు లక్షల నలభై ఆరు వేల నాలుగు వందల అరవై ఏడు\nB: తొమ్మిది వేల నాలుగు వందల యాభై మూడు\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "637014",
+    "out": "646470"
+   },
+   {
+    "id": "arith-te-05147",
+    "prompt": "The two numbers below are written in words in Telugu.\nA: రెండు లక్షల యాభై మూడు వేల ఐదు వందల ఒకటి\nB: ఒక లక్షా తొంభై ఏడు వేల నూట అరవై ఆరు\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "450667",
+    "out": "343551"
+   },
+   {
+    "id": "arith-te-05157",
+    "prompt": "The two numbers below are written in words in Telugu.\nA: ఐదు లక్షల డెబ్బై ఆరు వేల ఎనిమిది వందల డెబ్బై ఒకటి\nB: నాలుగు లక్షల డెబ్బై ఏడు వేల పద్నాలుగు\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1053885",
+    "out": "926784"
+   }
+  ],
+  "arith|en": [
+   {
+    "id": "arith-en-05348",
+    "prompt": "The two numbers below are written in words in English.\nA: five hundred and fifty-two thousand seven hundred and nine\nB: one hundred thousand two hundred and sixty-seven\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "452442",
+    "out": "447942"
+   },
+   {
+    "id": "arith-en-05336",
+    "prompt": "The two numbers below are written in words in English.\nA: eight hundred and sixty-three thousand five hundred and thirty-one\nB: eight hundred and five thousand and fifty-six\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "58475",
+    "out": "20795"
+   },
+   {
+    "id": "arith-en-05360",
+    "prompt": "The two numbers below are written in words in English.\nA: six hundred and fifty thousand nine hundred and sixteen\nB: three hundred and forty-nine thousand four hundred and forty-two\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "301474",
+    "out": "205957"
+   },
+   {
+    "id": "arith-en-05367",
+    "prompt": "The two numbers below are written in words in English.\nA: four hundred and fifteen thousand nine hundred and eighty-two\nB: five hundred and thirteen thousand eight hundred and eighty\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "929862",
+    "out": "968000"
+   }
+  ],
+  "arith|mr": [
+   {
+    "id": "arith-mr-04786",
+    "prompt": "The two numbers below are written in words in Marathi.\nA: शहाऐंशी\nB: चौसष्ट\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "22",
+    "out": "84 - 64 = 20\n"
+   },
+   {
+    "id": "arith-mr-04788",
+    "prompt": "The two numbers below are written in words in Marathi.\nA: अठ्ठेचाळीस\nB: बावीस\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "26",
+    "out": "16"
+   },
+   {
+    "id": "arith-mr-04845",
+    "prompt": "The two numbers below are written in words in Marathi.\nA: पाच लाख सत्त्याहत्तर हजार दोनशे त्र्याण्णव\nB: दोन लाख पस्तीस हजार नऊशे दहा\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "813203",
+    "out": "7378290"
+   },
+   {
+    "id": "arith-mr-04850",
+    "prompt": "The two numbers below are written in words in Marathi.\nA: एक लाख अडुसष्ट हजार सत्तर\nB: एक्केचाळीस हजार नऊशे बासष्ट\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "126108",
+    "out": "58000"
+   }
+  ],
+  "arith|digits": [
+   {
+    "id": "arith-digits-04555",
+    "prompt": "The two numbers below are written in digits.\nA: 996231\nB: 276804\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1273035",
+    "out": "1263035"
+   },
+   {
+    "id": "arith-digits-04552",
+    "prompt": "The two numbers below are written in digits.\nA: 591206\nB: 38209\nCompute A - B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "552997",
+    "out": "553000 - 97"
+   },
+   {
+    "id": "arith-digits-04539",
+    "prompt": "The two numbers below are written in digits.\nA: 488808\nB: 660791\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1149599",
+    "out": "1148599"
+   },
+   {
+    "id": "arith-digits-04583",
+    "prompt": "The two numbers below are written in digits.\nA: 787234\nB: 816968\nCompute A + B. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "1604202",
+    "out": "1594202"
+   }
+  ],
+  "w2d|en": [
+   {
+    "id": "w2d-en-02591",
+    "prompt": "The following is a number written in words in English:\none hundred thousand four hundred and fifty-four\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "100454",
+    "out": "104454\n"
+   },
+   {
+    "id": "w2d-en-02689",
+    "prompt": "The following is a number written in words in English:\nnine hundred and fifty million nine hundred thousand two hundred and twenty-five\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "950900225",
+    "out": "950000900225"
+   },
+   {
+    "id": "w2d-en-02612",
+    "prompt": "The following is a number written in words in English:\nnine hundred and eighteen thousand six hundred and seventy-four\nWrite this number in digits. Output only the number in digits (0-9), with no commas, words or explanation.",
+    "gold": "918674",
+    "out": "1918674"
+   }
+  ]
+ },
+ "d2w_possible_truncations": {
+  "Llama 3.2 3B": 1,
+  "Gemma 3 4B": 2,
+  "Qwen2.5 7B": 0,
+  "Llama 3.1 8B": 7,
+  "Aya Expanse 8B": 0,
+  "Gemma 3 12B": 0
+ }
+}
