@@ -21,9 +21,10 @@ src/build.py              builds the dataset (fixed seed)
 src/run.py                runs a model (local MLX model or any OpenAI-compatible endpoint)
 src/score.py              answer extraction, strict and lenient D2W matching, error taxonomy
 src/analyze.py            scores all runs and writes results/summary.json and the result tables
-src/claude_sample.py      scores the 319-item sample answered by the proprietary models
+src/claude_sample.py      scores the 319-item sample (proprietary and larger open-weight models)
 results/<model>.jsonl     raw model outputs, one line per item
 results/claude_sample/    the 319-item sample: questions, answers per model, scores
+results/sample-*.jsonl     larger open-weight models on the same sample
 ```
 
 ## Setup
@@ -55,6 +56,8 @@ Any OpenAI-compatible endpoint:
 ```
 export GINTI_API_KEY=...
 python run.py --backend api --base-url https://openrouter.ai/api/v1 --model <model-id> --name <short-name>
+# only the 319-item sample, at most 30 requests per minute:
+python run.py --backend api --base-url <url> --model <model-id> --name <short-name> --ids ../results/claude_sample/ids.json --rpm 30
 ```
 
 Runs are resumable; outputs go to `results/<name>.jsonl`. Then:
@@ -88,6 +91,16 @@ Four proprietary models on a stratified 319-item sample (`results/claude_sample/
 | Claude Fable 5.2 | 100.0 | 96.7 | 100.0 | 100.0 | 100.0 | 99.3 |
 
 These were queried through the Claude Code agent interface (no code execution, reasoning allowed, no control over decoding), so the two tables are not a controlled comparison.
+
+Three larger open-weight models on the same 319-item sample (`results/sample-*.jsonl`), queried through the Groq API at temperature 0:
+
+| Model | W2D | D2W | Arith | Frac | Conv | Avg |
+|---|---|---|---|---|---|---|
+| GPT-OSS 20B | 64.4 | 28.3 | 50.0 | 32.5 | 80.0 | 51.1 |
+| Qwen 3.8 27B | 47.4 | 13.3 | 24.1 | 47.5 | 50.0 | 36.5 |
+| GPT-OSS 120B | 60.0 | 45.0 | 46.3 | 52.5 | 100.0 | 60.8 |
+
+The two GPT-OSS models always reason before answering (reasoning effort set to low). On the same items the six small models score between 6.7 and 32.3.
 
 ## Known limitations
 
