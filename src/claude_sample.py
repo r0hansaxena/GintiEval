@@ -1,4 +1,5 @@
-"""Score the 319-item sample answered by the proprietary models (results/claude_sample/)
+"""Score the 319-item sample answered by the proprietary models (results/claude_sample/) and by the
+larger open-weight models (results/sample-*.jsonl)
 and write paper/generated/tab_large.tex. The six open-weight models are re-scored on the same items."""
 import collections, json
 from pathlib import Path
@@ -12,6 +13,7 @@ for l in open(ROOT / "data" / "gintieval.jsonl", encoding="utf-8"):
 ids = json.load(open(SAMPLE / "ids.json"))
 TASKS = ["w2d", "d2w", "arith", "frac", "conv"]
 LARGE = [("haiku", "Claude Haiku 5.5"), ("sonnet", "Claude Sonnet 5.5"), ("opus", "Claude Opus 5.5"), ("fable", "Claude Fable 5.2")]
+MID = [("sample-gpt-oss-20b", "GPT-OSS 20B"), ("sample-qwen3.8-27b", "Qwen 3.8 27B"), ("sample-gpt-oss-120b", "GPT-OSS 120B")]
 SMALL = [("llama-3.2-3b", "Llama 3.2 3B"), ("gemma-3-4b", "Gemma 3 4B"), ("qwen2.5-7b", "Qwen2.5 7B"),
          ("llama-3.1-8b", "Llama 3.1 8B"), ("aya-expanse-8b", "Aya Expanse 8B"), ("gemma-3-12b", "Gemma 3 12B")]
 
@@ -46,18 +48,18 @@ for key, name in LARGE:
     ans = load(SAMPLE / f"answers_{key}.jsonl", "output")
     assert set(ids) <= set(ans), key
     res[name] = evaluate(ans)
-for key, name in SMALL:
+for key, name in MID + SMALL:
     first = json.loads(open(ROOT / "results" / f"{key}.jsonl", encoding="utf-8").readline())
     field = "output" if "output" in first else "out"
     res[name] = evaluate(load(ROOT / "results" / f"{key}.jsonl", field))
 
 lines = ["\\begin{tabular}{lrrrrrr}", "\\toprule",
          "\\textbf{Model} & \\textbf{W2D} & \\textbf{D2W} & \\textbf{Arith} & \\textbf{Frac} & \\textbf{Conv} & \\textbf{Avg} \\\\", "\\midrule"]
-for group in (LARGE, SMALL):
+for group in (LARGE, MID, SMALL):
     for _, name in group:
         d = res[name]
         lines.append(name + " & " + " & ".join(f"{d[t]:.1f}" for t in TASKS) + f" & {d['avg']:.1f} \\\\")
-    if group is LARGE:
+    if group is not SMALL:
         lines.append("\\midrule")
 lines += ["\\bottomrule", "\\end{tabular}"]
 (ROOT / "paper" / "generated").mkdir(parents=True, exist_ok=True)

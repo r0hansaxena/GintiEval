@@ -1,0 +1,319 @@
+{"id": "w2d-hi-00008", "output": "9"}
+{"id": "w2d-hi-00083", "output": "84"}
+{"id": "w2d-hi-00099", "output": "102"}
+{"id": "w2d-hi-00140", "output": "742"}
+{"id": "w2d-hi-00157", "output": "3168"}
+{"id": "w2d-hi-00158", "output": "3358"}
+{"id": "w2d-hi-00159", "output": "3624"}
+{"id": "w2d-hi-00183", "output": "26904"}
+{"id": "w2d-hi-00191", "output": "51077"}
+{"id": "w2d-hi-00212", "output": "399710"}
+{"id": "w2d-hi-00218", "output": "784575"}
+{"id": "w2d-hi-00219", "output": "913256"}
+{"id": "w2d-hi-00232", "output": "1961899"}
+{"id": "w2d-hi-00237", "output": "2819023"}
+{"id": "w2d-hi-00246", "output": "7608495"}
+{"id": "w2d-bn-00303", "output": "5"}
+{"id": "w2d-bn-00317", "output": "19"}
+{"id": "w2d-bn-00326", "output": "68"}
+{"id": "w2d-bn-00362", "output": "64"}
+{"id": "w2d-bn-00391", "output": "93"}
+{"id": "w2d-bn-00424", "output": "488"}
+{"id": "w2d-bn-00451", "output": "1761"}
+{"id": "w2d-bn-00458", "output": "3624"}
+{"id": "w2d-bn-00460", "output": "4215"}
+{"id": "w2d-bn-00502", "output": "135074"}
+{"id": "w2d-bn-00530", "output": "1774132"}
+{"id": "w2d-bn-00544", "output": "6671033"}
+{"id": "w2d-bn-00565", "output": "40973681"}
+{"id": "w2d-bn-00586", "output": "325497755"}
+{"id": "w2d-bn-00595", "output": "947155391"}
+{"id": "w2d-mr-00632", "output": "35"}
+{"id": "w2d-mr-00643", "output": "74"}
+{"id": "w2d-mr-00667", "output": "70"}
+{"id": "w2d-mr-00670", "output": "73"}
+{"id": "w2d-mr-00682", "output": "55"}
+{"id": "w2d-mr-00691", "output": "48"}
+{"id": "w2d-mr-00696", "output": "99"}
+{"id": "w2d-mr-00742", "output": "870"}
+{"id": "w2d-mr-00744", "output": "919"}
+{"id": "w2d-mr-00758", "output": "3825"}
+{"id": "w2d-mr-00764", "output": "7434"}
+{"id": "w2d-mr-00768", "output": "11338"}
+{"id": "w2d-mr-00786", "output": "41698"}
+{"id": "w2d-mr-00837", "output": "3181560"}
+{"id": "w2d-mr-00889", "output": "587771766"}
+{"id": "w2d-gu-00918", "output": "22"}
+{"id": "w2d-gu-00929", "output": "33"}
+{"id": "w2d-gu-00983", "output": "70"}
+{"id": "w2d-gu-00989", "output": "30"}
+{"id": "w2d-gu-01008", "output": "170"}
+{"id": "w2d-gu-01021", "output": "436"}
+{"id": "w2d-gu-01052", "output": "2363"}
+{"id": "w2d-gu-01057", "output": "3825"}
+{"id": "w2d-gu-01059", "output": "4636"}
+{"id": "w2d-gu-01087", "output": "74711"}
+{"id": "w2d-gu-01091", "output": "71990"}
+{"id": "w2d-gu-01093", "output": "14350"}
+{"id": "w2d-gu-01095", "output": "96173"}
+{"id": "w2d-gu-01125", "output": "1533171"}
+{"id": "w2d-gu-01158", "output": "20607403"}
+{"id": "w2d-ta-01210", "output": "15"}
+{"id": "w2d-ta-01211", "output": "16"}
+{"id": "w2d-ta-01231", "output": "36"}
+{"id": "w2d-ta-01278", "output": "83"}
+{"id": "w2d-ta-01285", "output": "300"}
+{"id": "w2d-ta-01319", "output": "425"}
+{"id": "w2d-ta-01326", "output": "576"}
+{"id": "w2d-ta-01334", "output": "710"}
+{"id": "w2d-ta-01337", "output": "856"}
+{"id": "w2d-ta-01394", "output": "81073"}
+{"id": "w2d-ta-01445", "output": "12021390"}
+{"id": "w2d-ta-01470", "output": "96482227"}
+{"id": "w2d-ta-01473", "output": "128036732"}
+{"id": "w2d-ta-01478", "output": "254816029"}
+{"id": "w2d-ta-01486", "output": "455683026"}
+{"id": "w2d-te-01562", "output": "58"}
+{"id": "w2d-te-01582", "output": "88"}
+{"id": "w2d-te-01622", "output": "498"}
+{"id": "w2d-te-01632", "output": "688"}
+{"id": "w2d-te-01653", "output": "3358"}
+{"id": "w2d-te-01657", "output": "4283"}
+{"id": "w2d-te-01683", "output": "41693"}
+{"id": "w2d-te-01691", "output": "64350"}
+{"id": "w2d-te-01692", "output": "80343"}
+{"id": "w2d-te-01729", "output": "2341989"}
+{"id": "w2d-te-01738", "output": "5723582"}
+{"id": "w2d-te-01739", "output": "5997426"}
+{"id": "w2d-te-01742", "output": "2728682"}
+{"id": "w2d-te-01750", "output": "16286045"}
+{"id": "w2d-te-01777", "output": "254813929"}
+{"id": "w2d-hi-Latn-01798", "output": "5"}
+{"id": "w2d-hi-Latn-01864", "output": "150"}
+{"id": "w2d-hi-Latn-01913", "output": "350"}
+{"id": "w2d-hi-Latn-01914", "output": "402"}
+{"id": "w2d-hi-Latn-01945", "output": "1723"}
+{"id": "w2d-hi-Latn-01963", "output": "8290"}
+{"id": "w2d-hi-Latn-02010", "output": "630248"}
+{"id": "w2d-hi-Latn-02018", "output": "1216774"}
+{"id": "w2d-hi-Latn-02028", "output": "2331997"}
+{"id": "w2d-hi-Latn-02051", "output": "18078507"}
+{"id": "w2d-hi-Latn-02068", "output": "96485277"}
+{"id": "w2d-hi-Latn-02070", "output": "119006920"}
+{"id": "w2d-hi-Latn-02073", "output": "176822331"}
+{"id": "w2d-hi-Latn-02074", "output": "180809268"}
+{"id": "w2d-en-IN-02110", "output": "18"}
+{"id": "w2d-en-IN-02117", "output": "25"}
+{"id": "w2d-en-IN-02121", "output": "29"}
+{"id": "w2d-en-IN-02130", "output": "38"}
+{"id": "w2d-en-IN-02156", "output": "64"}
+{"id": "w2d-en-IN-02170", "output": "78"}
+{"id": "w2d-en-IN-02173", "output": "81"}
+{"id": "w2d-en-IN-02183", "output": "91"}
+{"id": "w2d-en-IN-02207", "output": "232"}
+{"id": "w2d-en-IN-02209", "output": "283"}
+{"id": "w2d-en-IN-02268", "output": "14347"}
+{"id": "w2d-en-IN-02315", "output": "979925"}
+{"id": "w2d-en-IN-02328", "output": "2364381"}
+{"id": "w2d-en-IN-02344", "output": "12309086"}
+{"id": "w2d-en-IN-02390", "output": "950900225"}
+{"id": "w2d-en-02399", "output": "8"}
+{"id": "w2d-en-02420", "output": "29"}
+{"id": "w2d-en-02423", "output": "32"}
+{"id": "w2d-en-02440", "output": "49"}
+{"id": "w2d-en-02473", "output": "82"}
+{"id": "w2d-en-02500", "output": "199"}
+{"id": "w2d-en-02522", "output": "576"}
+{"id": "w2d-en-02550", "output": "3358"}
+{"id": "w2d-en-02562", "output": "11383"}
+{"id": "w2d-en-02573", "output": "22486"}
+{"id": "w2d-en-02577", "output": "33364"}
+{"id": "w2d-en-02579", "output": "37157"}
+{"id": "w2d-en-02618", "output": "1397490"}
+{"id": "w2d-en-02645", "output": "14667890"}
+{"id": "w2d-en-02687", "output": "868923474"}
+{"id": "d2w-hi-02762", "output": "बहत्तर"}
+{"id": "d2w-hi-02793", "output": "एक सौ तीस"}
+{"id": "d2w-hi-02809", "output": "तीन सौ बारह"}
+{"id": "d2w-hi-02852", "output": "चार हज़ार दो सौ पंद्रह"}
+{"id": "d2w-hi-02856", "output": "छः हजार दो सौ छप्पन"}
+{"id": "d2w-hi-02880", "output": "चालीस हज़ार आठ सौ इक्यासी"}
+{"id": "d2w-hi-02912", "output": "नौ लाख अड़सठ हज़ार तीन सौ नौ"}
+{"id": "d2w-hi-02935", "output": "उनसठ लाख सत्तहत्तर हजार चार सौ छब्बीस"}
+{"id": "d2w-hi-02959", "output": "चार करोड़ चालीस लाख उनतीस हजार दो सौ सत्तावन"}
+{"id": "d2w-hi-02977", "output": "तीस करोड़ पचपन लाख इक्यासी हजार दो सौ छत्तीस"}
+{"id": "d2w-bn-03057", "output": "ষাট আট"}
+{"id": "d2w-bn-03074", "output": "পঁচাশি"}
+{"id": "d2w-bn-03078", "output": "ঊনশি"}
+{"id": "d2w-bn-03092", "output": "একশো ত্রিশ"}
+{"id": "d2w-bn-03114", "output": "চারশো ছত্রিশ"}
+{"id": "d2w-bn-03161", "output": "এগারো হাজার নয়শত চুয়ানব্বই"}
+{"id": "d2w-bn-03168", "output": "ষোল হাজার তিনশো তেষট্টি"}
+{"id": "d2w-bn-03179", "output": "চল্লিশ হাজার আটশ একাশি"}
+{"id": "d2w-bn-03201", "output": "তিন লক্ষ চার হাজার ত্রিশ তিন"}
+{"id": "d2w-bn-03287", "output": "পঁচানব্বই কোটি নয় লাখ দুইশো পঁচিশ"}
+{"id": "d2w-mr-03334", "output": "चाळीस सहा"}
+{"id": "d2w-mr-03367", "output": "एकोणऐंशी"}
+{"id": "d2w-mr-03373", "output": "पंच्याऐंशी"}
+{"id": "d2w-mr-03383", "output": "पंच्याण्णव"}
+{"id": "d2w-mr-03401", "output": "दोनशे पंचवीस"}
+{"id": "d2w-mr-03425", "output": "सहा शंभर चाळीस तीन"}
+{"id": "d2w-mr-03427", "output": "सातशे दहा"}
+{"id": "d2w-mr-03435", "output": "नऊशे एकोणविस"}
+{"id": "d2w-mr-03463", "output": "तेराहजार नऊशे बेळीस"}
+{"id": "d2w-mr-03574", "output": "एकोणतीस कोटी एकवीस लाख त्र्याण्णव हजार सातशे साततीस"}
+{"id": "d2w-gu-03660", "output": "ત્રેસત્તર"}
+{"id": "d2w-gu-03701", "output": "બે સો છવીસ"}
+{"id": "d2w-gu-03702", "output": "બે સો બત્રીસ"}
+{"id": "d2w-gu-03731", "output": "આઠસો ચાળીસ બે"}
+{"id": "d2w-gu-03796", "output": "બે લાખ બત્રીસ હજાર નવસો ત્રેપન"}
+{"id": "d2w-gu-03804", "output": "છસો પચાસ ત્રણ હજાર બે સો અડતાલીસ"}
+{"id": "d2w-gu-03824", "output": "બે મિલિયન ચારસો છિયાસઠ હજાર સાતસો ઓંત્રીસ"}
+{"id": "d2w-gu-03876", "output": "છત્રીસ કરોડ પચહत्तर લાખ ચૌદ હજાર ત્રણ સો ષઠ"}
+{"id": "d2w-gu-03885", "output": "નવસો પચાસ મિલિયન નવસો હજાર બે સો પચ્ચીસ"}
+{"id": "d2w-gu-03886", "output": "નવસો પચ્ચીસ મિલિયન ત્રણ લાખ પંદર હજાર ત્રણ સો એકાણ"}
+{"id": "d2w-ta-03894", "output": "எட்டு"}
+{"id": "d2w-ta-03900", "output": "பதினான்கு"}
+{"id": "d2w-ta-03920", "output": "முப்பத்து நான்கு"}
+{"id": "d2w-ta-03990", "output": "நூற்று நாற்பத்து ஒன்று"}
+{"id": "d2w-ta-04011", "output": "நானூற்று முப்பத்து ஆறு"}
+{"id": "d2w-ta-04040", "output": "ஆயிரத்து தொண்ணூற்று இரண்டு"}
+{"id": "d2w-ta-04078", "output": "நாற்பத்தி ஒன்பது ஆயிரம் தொண்ணூற்று ஏழு"}
+{"id": "d2w-ta-04082", "output": "எழுபத்து இரண்டு ஆயிரம் ஏழுநூறு ஐம்பத்து இரண்டு"}
+{"id": "d2w-ta-04127", "output": "மூன்று மில்லியன் இருநூறு முப்பது ஆயிரம் எட்டு நூறு ஐம்பத்து மூன்று"}
+{"id": "d2w-ta-04169", "output": "இருபத்து ஐந்து கோடி நாற்பத்து எட்டு இலட்சம் பதின்மூன்று ஆயிரம் ஒன்பது நூறு இருபத்து ஒன்பது"}
+{"id": "d2w-te-04194", "output": "తొమ్మిది"}
+{"id": "d2w-te-04243", "output": "అరవై ఎనిమిది"}
+{"id": "d2w-te-04261", "output": "ఎరవై ఆరు"}
+{"id": "d2w-te-04264", "output": "ఎనభై తొమ్మిది"}
+{"id": "d2w-te-04324", "output": "ఏడు వందల పది"}
+{"id": "d2w-te-04346", "output": "మూడు వేల ఎనిమిది వందల ఇరవై ఐదు"}
+{"id": "d2w-te-04353", "output": "ఏడు వేల నాలుగు వందల ఎనభై తొమ్మిది"}
+{"id": "d2w-te-04428", "output": "నలభై ఆరు లక్షాలు ముప్పై నాలుగు వేల ఏడు వందల తొమ్మిది పది ఐదు"}
+{"id": "d2w-te-04462", "output": "పదకొండు కోట్లు తొంభై లక్షలు ఆరు వేల తొమ్మిది వందల ఇరవై"}
+{"id": "d2w-te-04481", "output": "ఎనభై ఆరు కోట్లు తొంభై తొమ్మిది లక్షలు ఇరవై మూడు వేల నాలుగు శతాలు ఎనభై నాలుగు"}
+{"id": "arith-digits-04505", "output": "140"}
+{"id": "arith-digits-04517", "output": "146"}
+{"id": "arith-digits-04545", "output": "813203"}
+{"id": "arith-digits-04556", "output": "249041"}
+{"id": "arith-digits-04563", "output": "1523827"}
+{"id": "arith-digits-04567", "output": "929862"}
+{"id": "arith-hi-04608", "output": "28"}
+{"id": "arith-hi-04622", "output": "31"}
+{"id": "arith-hi-04630", "output": "-2"}
+{"id": "arith-hi-04636", "output": "31471"}
+{"id": "arith-hi-04640", "output": "240295"}
+{"id": "arith-hi-04651", "output": "1486097"}
+{"id": "arith-bn-04703", "output": "133"}
+{"id": "arith-bn-04742", "output": "941996"}
+{"id": "arith-bn-04751", "output": "1431089"}
+{"id": "arith-bn-04756", "output": "267041"}
+{"id": "arith-bn-04769", "output": "1127508"}
+{"id": "arith-bn-04779", "output": "859086"}
+{"id": "arith-mr-04803", "output": "137"}
+{"id": "arith-mr-04809", "output": "95"}
+{"id": "arith-mr-04821", "output": "156"}
+{"id": "arith-mr-04845", "output": "823149"}
+{"id": "arith-mr-04872", "output": "790239"}
+{"id": "arith-mr-04873", "output": "1214637"}
+{"id": "arith-gu-04886", "output": "2"}
+{"id": "arith-gu-04906", "output": "58"}
+{"id": "arith-gu-04915", "output": "99"}
+{"id": "arith-gu-04955", "output": "1175435"}
+{"id": "arith-gu-04962", "output": "282552"}
+{"id": "arith-ta-04993", "output": "154"}
+{"id": "arith-ta-05014", "output": "21"}
+{"id": "arith-ta-05018", "output": "40"}
+{"id": "arith-ta-05064", "output": "231906"}
+{"id": "arith-ta-05070", "output": "106331"}
+{"id": "arith-ta-05083", "output": "1526382"}
+{"id": "arith-te-05116", "output": "11"}
+{"id": "arith-te-05120", "output": "34"}
+{"id": "arith-te-05149", "output": "1343004"}
+{"id": "arith-te-05151", "output": "1476107"}
+{"id": "arith-te-05153", "output": "1631519"}
+{"id": "arith-te-05157", "output": "1033875"}
+{"id": "arith-hi-Latn-05199", "output": "92"}
+{"id": "arith-hi-Latn-05208", "output": "18"}
+{"id": "arith-hi-Latn-05215", "output": "107"}
+{"id": "arith-hi-Latn-05242", "output": "980990"}
+{"id": "arith-hi-Latn-05268", "output": "60463"}
+{"id": "arith-hi-Latn-05272", "output": "810219"}
+{"id": "arith-en-05294", "output": "21"}
+{"id": "arith-en-05308", "output": "68"}
+{"id": "arith-en-05313", "output": "88"}
+{"id": "arith-en-05326", "output": "8"}
+{"id": "arith-en-05364", "output": "231906"}
+{"id": "arith-en-05370", "output": "106131"}
+{"id": "frac-hi-05399", "output": "25000000"}
+{"id": "frac-hi-05413", "output": "325000"}
+{"id": "frac-hi-05421", "output": "350"}
+{"id": "frac-hi-05438", "output": "450000"}
+{"id": "frac-hi-05499", "output": "85000000"}
+{"id": "frac-hi-05537", "output": "10500"}
+{"id": "frac-hi-05557", "output": "12500"}
+{"id": "frac-hi-05563", "output": "12:45"}
+{"id": "frac-hi-05566", "output": "3:15"}
+{"id": "frac-hi-05581", "output": "8:15"}
+{"id": "frac-hi-Latn-05608", "output": "2500"}
+{"id": "frac-hi-Latn-05671", "output": "5.5"}
+{"id": "frac-hi-Latn-05695", "output": "75000000"}
+{"id": "frac-hi-Latn-05704", "output": "600000"}
+{"id": "frac-hi-Latn-05714", "output": "1125000"}
+{"id": "frac-hi-Latn-05744", "output": "1150000"}
+{"id": "frac-hi-Latn-05748", "output": "11000.25"}
+{"id": "frac-hi-Latn-05753", "output": "11500"}
+{"id": "frac-hi-Latn-05787", "output": "6:15"}
+{"id": "frac-hi-Latn-05804", "output": "12:15"}
+{"id": "frac-bn-05807", "output": "101"}
+{"id": "frac-bn-05821", "output": "225000"}
+{"id": "frac-bn-05837", "output": "350000"}
+{"id": "frac-bn-05883", "output": "7.5"}
+{"id": "frac-bn-05890", "output": "8000000000"}
+{"id": "frac-bn-05901", "output": "10100000"}
+{"id": "frac-bn-05903", "output": "9"}
+{"id": "frac-bn-05906", "output": "9000000"}
+{"id": "frac-bn-05908", "output": "9500"}
+{"id": "frac-bn-05917", "output": "500000"}
+{"id": "frac-mr-05947", "output": "7"}
+{"id": "frac-mr-05961", "output": "225000"}
+{"id": "frac-mr-05968", "output": "3250"}
+{"id": "frac-mr-06006", "output": "76000000"}
+{"id": "frac-mr-06035", "output": "7.5"}
+{"id": "frac-mr-06045", "output": "590000"}
+{"id": "frac-mr-06057", "output": "7000000"}
+{"id": "frac-mr-06059", "output": "10.5"}
+{"id": "frac-mr-06082", "output": "120000000"}
+{"id": "frac-mr-06086", "output": "125000000"}
+{"id": "conv-en-06087", "output": "0.1"}
+{"id": "conv-en-06097", "output": "45"}
+{"id": "conv-en-06119", "output": "50"}
+{"id": "conv-en-06130", "output": "900"}
+{"id": "conv-en-06132", "output": "0.1"}
+{"id": "conv-en-06135", "output": "0.75"}
+{"id": "conv-en-06153", "output": "0.4"}
+{"id": "conv-en-06157", "output": "4.5"}
+{"id": "conv-en-06160", "output": "0.9"}
+{"id": "conv-en-06162", "output": "100"}
+{"id": "conv-en-06167", "output": "2500"}
+{"id": "conv-en-06178", "output": "200"}
+{"id": "conv-en-06182", "output": "2500"}
+{"id": "conv-en-06185", "output": "15000"}
+{"id": "conv-en-06186", "output": "30000"}
+{"id": "conv-en-06189", "output": "50"}
+{"id": "conv-en-06207", "output": "2,71,76,555"}
+{"id": "conv-en-06212", "output": "88,60,759"}
+{"id": "conv-en-06215", "output": "4,44,39,257"}
+{"id": "conv-en-06223", "output": "37,65,22,296"}
+{"id": "conv-en-06231", "output": "19,61,899"}
+{"id": "conv-en-06260", "output": "2,14,044"}
+{"id": "conv-en-06266", "output": "7,56,78,623"}
+{"id": "conv-en-06269", "output": "232,953"}
+{"id": "conv-en-06272", "output": "979,925"}
+{"id": "conv-en-06278", "output": "868,923,474"}
+{"id": "conv-en-06284", "output": "292,193,777"}
+{"id": "conv-en-06286", "output": "18,028,507"}
+{"id": "conv-en-06294", "output": "691,492,373"}
+{"id": "conv-en-06304", "output": "672,091,632"}
+{"id": "w2d-hi-Latn-01872", "output": "80"}
+{"id": "arith-gu-04954", "output": "15987"}
