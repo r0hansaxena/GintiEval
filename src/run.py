@@ -49,24 +49,40 @@ def run_mlx(model_id, items, out, bs):
             print(f"{done}/{len(enc)}  {el:.0f}s  eta {el / done * (len(enc) - done):.0f}s", flush=True)
 
 
-def run_api(model_id, items, out, base_url, workers):
+def run_api(model_id, items, out, base_url, workers, key_file=None, rpm=0, extra_tokens=0, effort=None):
     import concurrent.futures as cf
     import urllib.request
-    key = os.environ["GINTI_API_KEY"]
+    key = open(os.path.expanduser(key_file)).read().strip() if key_file else os.environ["GINTI_API_KEY"]
+    import threading
+    lock, last = threading.Lock(), [0.0]
+
+    def throttle():            # spread requests evenly when the provider has a requests-per-minute limit
+        if not rpm:
+            return
+        with lock:
+            wait = last[0] + 60.0 / rpm - time.time()
+            if wait > 0:
+                time.sleep(wait)
+            last[0] = time.time()
 
     def call(it):
-        body = json.dumps({"model": model_id, "temperature": 0, "max_tokens": max_tokens(it),
-                           "messages": [{"role": "user", "content": it["prompt"]}]}).encode()
-        for attempt in range(6):
+        req_body = {"model": model_id, "temperature": 0, "max_tokens": max_tokens(it) + extra_tokens,
+                    "messages": [{"role": "user", "content": it["prompt"]}]}
+        if effort:                                   # models that reason before answering
+            req_body["reasoning_effort"] = effort
+        body = json.dumps(req_body).encode()
+        for attempt in range(8):
             try:
+                throttle()
                 req = urllib.request.Request(base_url.rstrip("/") + "/chat/completions", data=body,
                                              headers={"Authorization": f"Bearer {key}",
-                                                      "Content-Type": "application/json"})
+                                                      "Content-Type": "application/json",
+                                                      "User-Agent": "ginti-eval/1.0"})
                 with urllib.request.urlopen(req, timeout=120) as r:
                     return it["id"], json.load(r)["choices"][0]["message"]["content"] or ""
             except Exception as e:  # retry with backoff
                 err = repr(e)
-                time.sleep(2 ** attempt)
+                time.sleep(min(60, 5 * 2 ** attempt) if "429" in err else 2 ** attempt)
         return it["id"], None if err else ""
 
     with cf.ThreadPoolExecutor(workers) as ex:
@@ -87,10 +103,18 @@ def main():
     ap.add_argument("--batch-size", type=int, default=16)
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--ids", help="JSON file with a list of item ids; run only these")
+    ap.add_argument("--key-file", help="file holding the API key (otherwise the GINTI_API_KEY variable is used)")
+    ap.add_argument("--rpm", type=float, default=0, help="limit on requests per minute (0 = no limit)")
+    ap.add_argument("--extra-tokens", type=int, default=0, help="extra output budget for models that reason before answering")
+    ap.add_argument("--reasoning-effort", help="passed as reasoning_effort when set")
     ap.add_argument("--data", default=str(ROOT / "data" / "gintieval.jsonl"))
     a = ap.parse_args()
 
     items = [json.loads(l) for l in open(a.data, encoding="utf-8")]
+    if a.ids:
+        keep = set(json.load(open(a.ids)))
+        items = [it for it in items if it["id"] in keep]
     if a.limit:
         import random
         random.Random(0).shuffle(items)
@@ -106,7 +130,7 @@ def main():
         if a.backend == "mlx":
             run_mlx(a.model, items, out, a.batch_size)
         else:
-            run_api(a.model, items, out, a.base_url, a.workers)
+            run_api(a.model, items, out, a.base_url, a.workers, a.key_file, a.rpm, a.extra_tokens, a.reasoning_effort)
 
 
 if __name__ == "__main__":
